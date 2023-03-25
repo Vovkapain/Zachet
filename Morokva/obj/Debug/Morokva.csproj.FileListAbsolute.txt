@@ -1,0 +1,174 @@
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.csproj.AssemblyReference.cache
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.csproj.SuggestedBindingRedirects.cache
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\MainWindow.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\App.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.cache
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.lref
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\Morokva.exe.config
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\Morokva.exe
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\Morokva.pdb
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\MainWindow.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.g.resources
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.Properties.Resources.resources
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.csproj.GenerateResource.cache
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.csproj.CoreCompileInputs.cache
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.exe
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.pdb
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\EntityFramework.dll
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\EntityFramework.xml
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Us1k\source\repos\Morokva\Morokva\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva_Content.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Morokva.csproj.CopyComplete
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Hatki.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\Hatki.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\avtorizz.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\CreateAc.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\avtorizz.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\CreateAc.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\AdminPanel.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\AdminPanel.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\AddEditPage.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\AddEditPage.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\App.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\UserList.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\UserList.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\ManagerHatki.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\ManagerHatki.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\DogovorHatok.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\DogovorHatok.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\AddUsers.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\AddUsers.baml
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\DogovorHatokManager.g.cs
+C:\Users\Us1k\source\repos\Morokva\Morokva\obj\Debug\DogovorHatokManager.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\Morokva.exe.config
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\Morokva.exe
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\Morokva.pdb
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.dll
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.xml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csprojAssemblyReference.cache
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddEditPage.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddUsers.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AdminPanel.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\avtorizz.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\CreateAc.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatok.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatokManager.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Hatki.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\MainWindow.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\ManagerHatki.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\UserList.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\App.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva_Content.g.cs
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.cache
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.lref
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\App.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddEditPage.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddUsers.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AdminPanel.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\avtorizz.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\CreateAc.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatok.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatokManager.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Hatki.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\MainWindow.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\ManagerHatki.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\UserList.baml
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.g.resources
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.Properties.Resources.resources
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.GenerateResource.cache
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.CoreCompileInputs.cache
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.CopyComplete
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.exe
+C:\Users\днс\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.pdb
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\Morokva.exe
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\Morokva.pdb
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\EntityFramework.dll
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\EntityFramework.xml
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.csproj.AssemblyReference.cache
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\AddEditPage.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\AddUsers.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\AdminPanel.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\avtorizz.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\CreateAc.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\DogovorHatok.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\DogovorHatokManager.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Hatki.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\MainWindow.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\ManagerHatki.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\UserList.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\App.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva_Content.g.cs
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.cache
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.lref
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\App.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\AddEditPage.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\AddUsers.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\AdminPanel.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\avtorizz.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\CreateAc.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\DogovorHatok.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\DogovorHatokManager.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Hatki.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\MainWindow.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\ManagerHatki.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\UserList.baml
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.g.resources
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.Properties.Resources.resources
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.csproj.GenerateResource.cache
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.csproj.CoreCompileInputs.cache
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.csproj.CopyComplete
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.exe
+C:\Users\IP2030\Desktop\Morokva\Morokva\obj\Debug\Morokva.pdb
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\Morokva.exe.config
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\Morokva.exe
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\Morokva.pdb
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.dll
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.xml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.AssemblyReference.cache
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.SuggestedBindingRedirects.cache
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddEditPage.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddUsers.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AdminPanel.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\avtorizz.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\CreateAc.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatok.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatokManager.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Hatki.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\MainWindow.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\ManagerHatki.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\UserList.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\App.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva_Content.g.cs
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.cache
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva_MarkupCompile.lref
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\App.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddEditPage.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AddUsers.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\AdminPanel.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\avtorizz.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\CreateAc.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatok.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\DogovorHatokManager.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Hatki.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\MainWindow.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\ManagerHatki.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\UserList.baml
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.g.resources
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.Properties.Resources.resources
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.GenerateResource.cache
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.CoreCompileInputs.cache
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.csproj.CopyComplete
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.exe
+C:\Users\Us1k\OneDrive\Рабочий стол\Morokva\Morokva\obj\Debug\Morokva.pdb
+C:\Users\IP2030\Desktop\Morokva\Morokva\bin\Debug\Morokva.exe.config

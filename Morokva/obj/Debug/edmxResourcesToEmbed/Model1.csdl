@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AgentstvoModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Client">
+    <Key>
+      <PropertyRef Name="IdClient" />
+    </Key>
+    <Property Name="IdClient" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIO" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Passport" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Dogovor" Relationship="Self.FK_Dogovor_Client" FromRole="Client" ToRole="Dogovor" />
+    <NavigationProperty Name="Zayavka" Relationship="Self.FK_Zayavka_Client" FromRole="Client" ToRole="Zayavka" />
+  </EntityType>
+  <EntityType Name="Dogovor">
+    <Key>
+      <PropertyRef Name="IdDogovora" />
+    </Key>
+    <Property Name="IdDogovora" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdClienta" Type="Int32" />
+    <Property Name="IdNedviz" Type="Int32" />
+    <Property Name="nomerDogovora" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DateSoglas" Type="DateTime" Precision="0" />
+    <Property Name="DateRastor" Type="DateTime" Precision="0" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdSotrudnika" Type="Int32" />
+    <NavigationProperty Name="Client" Relationship="Self.FK_Dogovor_Client" FromRole="Dogovor" ToRole="Client" />
+    <NavigationProperty Name="Nedvizimost" Relationship="Self.FK_Dogovor_Nedvizimost" FromRole="Dogovor" ToRole="Nedvizimost" />
+    <NavigationProperty Name="Sotrudniki" Relationship="Self.FK_Dogovor_Sotrudniki1" FromRole="Dogovor" ToRole="Sotrudniki" />
+  </EntityType>
+  <EntityType Name="Nedvizimost">
+    <Key>
+      <PropertyRef Name="IdNedviz" />
+    </Key>
+    <Property Name="IdNedviz" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Street" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Kvartira" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Dogovor" Relationship="Self.FK_Dogovor_Nedvizimost" FromRole="Nedvizimost" ToRole="Dogovor" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="User" Relationship="Self.FK_User_Role" FromRole="Role" ToRole="User" />
+  </EntityType>
+  <EntityType Name="Sotrudniki">
+    <Key>
+      <PropertyRef Name="IdSotrudnika" />
+    </Key>
+    <Property Name="IdSotrudnika" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FIOSotrudnika" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PassportrSotrudnika" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ContactSotrudnika" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Dogovor" Relationship="Self.FK_Dogovor_Sotrudniki1" FromRole="Sotrudniki" ToRole="Dogovor" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IdRole" Type="Int32" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_User_Role" FromRole="User" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Zayavka">
+    <Key>
+      <PropertyRef Name="IdZayavki" />
+    </Key>
+    <Property Name="IdZayavki" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdClienta" Type="Int32" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+    <Property Name="Time" Type="Time" Precision="7" />
+    <NavigationProperty Name="Client" Relationship="Self.FK_Zayavka_Client" FromRole="Zayavka" ToRole="Client" />
+  </EntityType>
+  <Association Name="FK_Dogovor_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Dogovor" Type="Self.Dogovor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="IdClient" />
+      </Principal>
+      <Dependent Role="Dogovor">
+        <PropertyRef Name="IdClienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Zayavka_Client">
+    <End Role="Client" Type="Self.Client" Multiplicity="0..1" />
+    <End Role="Zayavka" Type="Self.Zayavka" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Client">
+        <PropertyRef Name="IdClient" />
+      </Principal>
+      <Dependent Role="Zayavka">
+        <PropertyRef Name="IdClienta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Dogovor_Nedvizimost">
+    <End Role="Nedvizimost" Type="Self.Nedvizimost" Multiplicity="0..1" />
+    <End Role="Dogovor" Type="Self.Dogovor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nedvizimost">
+        <PropertyRef Name="IdNedviz" />
+      </Principal>
+      <Dependent Role="Dogovor">
+        <PropertyRef Name="IdNedviz" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Dogovor_Sotrudniki1">
+    <End Role="Sotrudniki" Type="Self.Sotrudniki" Multiplicity="0..1" />
+    <End Role="Dogovor" Type="Self.Dogovor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sotrudniki">
+        <PropertyRef Name="IdSotrudnika" />
+      </Principal>
+      <Dependent Role="Dogovor">
+        <PropertyRef Name="IdSotrudnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="0..1" />
+    <End Role="User" Type="Self.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="IdRole" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AgentstvoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Client" EntityType="Self.Client" />
+    <EntitySet Name="Dogovor" EntityType="Self.Dogovor" />
+    <EntitySet Name="Nedvizimost" EntityType="Self.Nedvizimost" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Sotrudniki" EntityType="Self.Sotrudniki" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="User" EntityType="Self.User" />
+    <EntitySet Name="Zayavka" EntityType="Self.Zayavka" />
+    <AssociationSet Name="FK_Dogovor_Client" Association="Self.FK_Dogovor_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Dogovor" EntitySet="Dogovor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Zayavka_Client" Association="Self.FK_Zayavka_Client">
+      <End Role="Client" EntitySet="Client" />
+      <End Role="Zayavka" EntitySet="Zayavka" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Dogovor_Nedvizimost" Association="Self.FK_Dogovor_Nedvizimost">
+      <End Role="Nedvizimost" EntitySet="Nedvizimost" />
+      <End Role="Dogovor" EntitySet="Dogovor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Dogovor_Sotrudniki1" Association="Self.FK_Dogovor_Sotrudniki1">
+      <End Role="Sotrudniki" EntitySet="Sotrudniki" />
+      <End Role="Dogovor" EntitySet="Dogovor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User_Role" Association="Self.FK_User_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(AgentstvoModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(AgentstvoModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

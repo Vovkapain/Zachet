@@ -1,0 +1,39 @@
+﻿<Page x:Class="Morokva.AdminPanel"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Morokva"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="1000"
+      Title="AdminPanel">
+
+    <Grid Width="1000" Height="420">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="377"/>
+            <RowDefinition Height="73"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DGMaterials" AutoGenerateColumns="False"  IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Тип" Binding="{Binding Type}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Улица" Binding="{Binding Street}"  Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Дом" Binding="{Binding Dom}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Квартира" Binding="{Binding Kvartira}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Статус" Binding="{Binding Status}" Width="*"></DataGridTextColumn>
+
+                <DataGridTemplateColumn Width="auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Name="BtnEdid" Content="Редактировать" Click="BtnEditClick" ></Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnAdd" Content="Добавить" HorizontalAlignment="Left" VerticalAlignment="Top" Click="btnAddClick" Grid.Row="1"></Button>
+        <Button x:Name="btnDel" Content="Удалить" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btnDelClick" Grid.Row="1" Margin="0,5,10,0"></Button>
+        <Button x:Name="btnDogovor" Content="Договоры" HorizontalAlignment="Right" VerticalAlignment="Top" Click="btnDogClick" Margin="0,0,289,0" Width="225" Grid.Row="1" />
+        <Button x:Name="btnUser" Content="Настройка пользователей" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Click="btnUserClick" Grid.Row="1" Margin="226,0,0,0" ></Button>
+
+    </Grid>
+</Page>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ac376642bd5d405286e6acc56645442c" Name="Diagram1">
+        <EntityTypeShape EntityType="AgentstvoModel.Client" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.Dogovor" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.Nedvizimost" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.Role" Width="1.5" PointX="5.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.Sotrudniki" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.User" Width="1.5" PointX="8" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AgentstvoModel.Zayavka" Width="1.5" PointX="3" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="AgentstvoModel.FK_Dogovor_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="AgentstvoModel.FK_Zayavka_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="AgentstvoModel.FK_Dogovor_Nedvizimost" ManuallyRouted="false" />
+        <AssociationConnector Association="AgentstvoModel.FK_Dogovor_Sotrudniki1" ManuallyRouted="false" />
+        <AssociationConnector Association="AgentstvoModel.FK_User_Role" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

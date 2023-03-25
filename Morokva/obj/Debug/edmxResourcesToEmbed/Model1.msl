@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище AgentstvoModelContainer" CdmEntityContainer="AgentstvoEntities">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="AgentstvoModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="IdClient" ColumnName="IdClient" />
+          <ScalarProperty Name="FIO" ColumnName="FIO" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dogovor">
+      <EntityTypeMapping TypeName="AgentstvoModel.Dogovor">
+        <MappingFragment StoreEntitySet="Dogovor">
+          <ScalarProperty Name="IdDogovora" ColumnName="IdDogovora" />
+          <ScalarProperty Name="IdClienta" ColumnName="IdClienta" />
+          <ScalarProperty Name="IdNedviz" ColumnName="IdNedviz" />
+          <ScalarProperty Name="nomerDogovora" ColumnName="nomerDogovora" />
+          <ScalarProperty Name="DateSoglas" ColumnName="DateSoglas" />
+          <ScalarProperty Name="DateRastor" ColumnName="DateRastor" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="IdSotrudnika" ColumnName="IdSotrudnika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Nedvizimost">
+      <EntityTypeMapping TypeName="AgentstvoModel.Nedvizimost">
+        <MappingFragment StoreEntitySet="Nedvizimost">
+          <ScalarProperty Name="IdNedviz" ColumnName="IdNedviz" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="Street" ColumnName="Street" />
+          <ScalarProperty Name="Dom" ColumnName="Dom" />
+          <ScalarProperty Name="Kvartira" ColumnName="Kvartira" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Role">
+      <EntityTypeMapping TypeName="AgentstvoModel.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sotrudniki">
+      <EntityTypeMapping TypeName="AgentstvoModel.Sotrudniki">
+        <MappingFragment StoreEntitySet="Sotrudniki">
+          <ScalarProperty Name="IdSotrudnika" ColumnName="IdSotrudnika" />
+          <ScalarProperty Name="FIOSotrudnika" ColumnName="FIOSotrudnika" />
+          <ScalarProperty Name="PassportrSotrudnika" ColumnName="PassportrSotrudnika" />
+          <ScalarProperty Name="ContactSotrudnika" ColumnName="ContactSotrudnika" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AgentstvoModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User">
+      <EntityTypeMapping TypeName="AgentstvoModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Login" ColumnName="Login" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IdRole" ColumnName="IdRole" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Zayavka">
+      <EntityTypeMapping TypeName="AgentstvoModel.Zayavka">
+        <MappingFragment StoreEntitySet="Zayavka">
+          <ScalarProperty Name="IdZayavki" ColumnName="IdZayavki" />
+          <ScalarProperty Name="IdClienta" ColumnName="IdClienta" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="Хранилище AgentstvoModel.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="Хранилище AgentstvoModel.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="Хранилище AgentstvoModel.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="Хранилище AgentstvoModel.sp_helpdiagramdefinition">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="AgentstvoModel.sp_helpdiagramdefinition_Result">
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="Хранилище AgentstvoModel.sp_helpdiagrams">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="AgentstvoModel.sp_helpdiagrams_Result">
+          <ScalarProperty Name="Database" ColumnName="Database" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Owner" ColumnName="Owner" />
+          <ScalarProperty Name="OwnerID" ColumnName="OwnerID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="Хранилище AgentstvoModel.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="Хранилище AgentstvoModel.sp_upgraddiagrams" />
+  </EntityContainerMapping>
+</Mapping>
